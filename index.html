@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="color1">
+  <div class="space1"></div>
+  <div class="container1">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Terima kasih telah meluangkan waktu untuk membatu saya dalam meningkatkan laman ini.</p>
+    <img src="https://png.pngtree.com/png-vector/20220710/ourmid/pngtree-love-line-hand-drawn-heart-png-image_5836818.png">
+    </div>
+    </div>
+    <div class="color2">
+    <div class="container2">
+    <form id="survey-form">
+      <label id="name-label" for="name" class="strong">Nama <input id="name" type="text" placeholder="Nama lengkap" required/></label>
+      <label id="email-label" for="email" class="strong">Email <input id="email" type="email" placeholder="suvey12@gmail.com" required/></label>
+      <label id="number-label" for="number" class="strong">Umur <input id="number" type="number" placeholder="18" min="10" max="90" /></label>
+      <label class="strong">Pilihlah kata yang mencerminkan laman ini :)
+        <select id="dropdown" name="dropdown">
+          <option value="">(pilih satu)</option>
+          <option value="1">Playfull</option>
+          <option value="2">Calm</option>
+          <option value="3">Hot</option>
+          <option value="4">Cool</option>
+          <option value="5">Dark</option>
+          <option value="6">Light</option>
+        </select>
+      </label>
+      <label class="strong">Apakah menurut kamu laman sudah cukup bagus</label>
+      <label for="keren"><input id="keren" type="radio" name="nilai" value="keren" class="inline"/>Keren</label>
+      <label for="bagus"><input id="bagus" type="radio" name="nilai" value="bagus" class="inline"/>Bagus</label>
+      <label for="biasa"><input id="biasa" type="radio" name="nilai" value="biasa" class="inline"/>Biasa Saja</label>
+      <label for="kurang"><input id="kurang" type="radio" name="nilai" value="kurang" class="inline"/>Kurang Bagus</label>
+
+      <label class="question">Darimana kamu tau laman ini?</label>
+      <label for="teman"><input id="teman" type="checkbox" name="sumber" value="teman" class="inline" />Teman</label>
+      <label><input type="checkbox" name="sumber" value="media-sosial" class="inline"/>Media Sosial</label>
+      <label><input type="checkbox" name="sumber" value="link" class="inline"/>Link Share</label>
+      <label><input type="checkbox" name="sumber" value="internet" class="inline"/>Pencarian Internet</label>
+
+      <label class="question">Supaya laman ini tambah keren, bagaimana pendapat kamu?<textarea id="saran" name="saran" row="5" cols="30" placeholder="Supaya makin bagus sebaiknya..."></textarea></label>
+      <input id="submit" type="submit" value="Submit"/>
+      
+    </form>
+  </div>
+  <div class="space2"></div>
+  </div>
+  </div>
+</body>
+</html>
